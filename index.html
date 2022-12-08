@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/images/favicon-32x32.png">
+  <link rel="stylesheet" href="src/index.css">
+  <link rel="stylesheet" href="src/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+
+<body>
+  <main>
+    <section class="balanco-content">
+      <div class="balanco-top">
+        <div>
+          <p class="balanco-titulo">My balance</p>
+          <p class="balanco-valor">$921.48</p>
+        </div>
+        <img class="logo" src="/public/images/logo.svg"></img>
+      </div>
+      <div class="balanco-bot">
+        <h1>Spending - Last 7 days</h1>
+        <section class="tabela" id="chart">
+        </section>
+        <div class="resumo">
+          <span class="resumo-este-mes">
+            <h2>Total this month</h2>
+            <p>$478.33</p>
+          </span>
+          <span class="resumo-ultimo-mes">
+            <h2>+2.4%</h2>
+            <p>from last month</p>
+          </span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/devdartagnan">DevDartagnan</a>.
+  </div>
+  <script type="module" src="src/chart.ts"></script>
+</body>
+
+</html>

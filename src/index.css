@@ -1,0 +1,162 @@
+:root {
+    --Soft-red: #ec775f;
+    --Cyan: hsl(186, 34%, 60%);
+    --Dark-brown: hsl(25, 47%, 15%);
+    --Medium-brown: #93867b;
+    --Cream: hsl(27, 66%, 92%);
+    --Very-pale-orange: #fffaf5;
+}
+
+body {
+    background-color: var(--Cream);
+}
+
+.apexcharts-bar-area:hover {
+    fill: var(--Cyan);
+}
+
+.apexcharts-bar-area:active {
+    fill: var(--Cyan);
+}
+
+
+.apexcharts-tooltip {
+    align-items: center;
+    background: var(--Dark-brown);
+    color: #FFF;
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    height: 40px;
+    width: 68px;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    height: 100vh;
+    justify-content: center;
+}
+
+.balanco-content {
+    color: var(--Dark-brown);
+    width: 355px;
+}
+
+.balanco-top {
+    background-color: var(--Soft-red);
+    border-radius: 18px;
+    box-sizing: border-box;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+    padding: 32px;
+    width: 100%;
+}
+
+.balanco-titulo {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.balanco-valor {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.balanco-bot {
+    background-color: #FFF;
+    border-radius: 18px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 350px;
+    margin-bottom: 32px;
+    padding: 32px;
+    width: 100%;
+}
+
+.balanco-bot h1 {
+    font-weight: 700;
+}
+
+.tabela {
+    border-bottom: solid 1px var(--Medium-brown);
+    display: flex;
+    gap: 26px;
+    height: 170px;
+    margin-bottom: 16px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.my-chart {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    height: 200px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.tabela-dia {
+    color: var(--Medium-brown);
+    font-size: 12px;
+}
+
+.resumo {
+    align-items: flex-end;
+    color: var(--Medium-brown);
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.resumo-este-mes h2 {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.resumo-este-mes p {
+    color: var(--Dark-brown);
+    font-weight: 700;
+}
+
+.resumo-ultimo-mes {
+    font-size: 14px;
+}
+
+.resumo-ultimo-mes h2 {
+    color: var(--Dark-brown);
+    margin-bottom: 8px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.attribution {
+    align-items: center;
+    background-color: var(--Soft-red);
+    bottom: 0;
+    color: var(--Dark-brown);
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    height: 40px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.attribution a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: var(--Cream);
+}
