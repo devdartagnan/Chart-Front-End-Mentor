@@ -62,7 +62,7 @@ states: {
     followCursor: true,
     intersect: true,
     inverseOrder: false,
-    custom: function ({ series, seriesIndex, dataPointIndex, w }: any) {
+    custom: function ({ seriesIndex, dataPointIndex, w }: any) {
       var data = w.globals.initialSeries[seriesIndex].data[dataPointIndex];
 
       return 'R$: ' + data
