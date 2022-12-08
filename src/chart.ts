@@ -20,8 +20,7 @@ var options = {
     type: 'bar',
     toolbar: {
       show: false
-    },
-    width: '100%',
+    }
   },
   series: [{
     name: 'Amount',
@@ -46,7 +45,6 @@ var options = {
   axisTicks: {
     show: false,
   },
-  
 states: {
   active: {
       filter: {
